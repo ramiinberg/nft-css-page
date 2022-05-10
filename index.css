@@ -22,3 +22,11 @@ h3 {
   margin: 0px;
 
 }
+
+section {
+  padding: 45px 0;
+}
+
+.main-image {
+  width:100%
+}
