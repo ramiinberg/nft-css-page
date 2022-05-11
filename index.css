@@ -5,10 +5,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
-  background: darkred;
-  padding: 45px 0;
-}
+
+/* typography */
 
 h1 {
   font-size: 36px;
@@ -24,8 +22,10 @@ h3 {
   font-size: 20px;
   color:lightcoral;
   margin: 0px;
-
+  
 }
+
+/* links */
 
 a {
   color:#ef5839;
@@ -38,6 +38,13 @@ a:hover {
 
 a:active {
   color: #d4b44c
+}
+
+/* layout */
+
+header {
+  background: darkred;
+  padding: 45px 0;
 }
 
 section {
