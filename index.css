@@ -42,9 +42,7 @@ a:hover, a:active {
   color: #d4b44c
 }
 
-.btn-buy, 
-.btn-info,
-.btn-about {
+.section-btn {
   display: inline-block;
   padding: 10px 19px;
   border-radius: 4.6px;
@@ -57,12 +55,13 @@ a:hover, a:active {
   background-color: darkred;
 }
 
-.btn-info, .btn-about {
+.btn-info {
   color: darkred;
   background-color: #ef5839;
 }
 
 .btn-about {
+  color: darkred;
   background-color: whitesmoke;
 }
 
