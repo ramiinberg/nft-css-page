@@ -8,10 +8,13 @@ body {
 
 /* typography */
 
+h1, h3 {
+  margin: 0;
+}
+
 h1 {
   font-size: 36px;
   color: whitesmoke;
-  margin: 0;
 }
 
 h2 {
@@ -21,7 +24,6 @@ h2 {
 h3 {
   font-size: 20px;
   color:lightcoral;
-  margin: 0px;
   
 }
 
@@ -32,23 +34,25 @@ a {
   text-decoration: underline dotted;
 }
 
-a:hover {
-  color: #d4b44c
-}
-
-a:active {
+a:hover, a:active {
   color: #d4b44c
 }
 
 /* layout */
 
-header {
-  background: darkred;
+header,
+section,
+footer {
   padding: 45px 0;
 }
 
-section {
-  padding: 45px 0;
+header, .second-section  {
+  background: darkred;
+}
+
+footer {
+  text-align: center;
+  color: darkred;
 }
 
 .container {
@@ -61,7 +65,6 @@ section {
 }
 
 .second-section {
-  background: darkred;
   color:whitesmoke
 }
 
@@ -76,8 +79,3 @@ section {
   border-radius: 4.6px;
 }
 
-footer {
-  text-align: center;
-  padding: 40px 0;
-  color: darkred;
-}
