@@ -27,6 +27,10 @@ h3 {
   
 }
 
+p {
+  line-height: 23px;
+}
+
 /* links */
 
 a {
@@ -78,4 +82,3 @@ footer {
   height: 300px;
   border-radius: 4.6px;
 }
-
