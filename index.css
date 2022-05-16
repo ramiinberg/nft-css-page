@@ -64,3 +64,14 @@ section {
   background: darkred;
   color:whitesmoke
 }
+
+.second-section-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 4.6px;
+}
