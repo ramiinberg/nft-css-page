@@ -75,3 +75,9 @@ section {
   height: 300px;
   border-radius: 4.6px;
 }
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  color: darkred;
+}
