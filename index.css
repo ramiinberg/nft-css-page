@@ -42,6 +42,34 @@ a:hover, a:active {
   color: #d4b44c
 }
 
+.btn-buy, 
+.btn-info,
+.btn-about {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-buy {
+  color: whitesmoke;
+  background-color: darkred;
+}
+
+.btn-info, .btn-about {
+  color: darkred;
+  background-color: #ef5839;
+}
+
+.btn-about {
+  background-color: whitesmoke;
+}
+
+.section-btn:hover, .section-btn:active {
+  color: #2b283A;
+  background-color: #f3e885;
+}
+
 /* layout */
 
 header,
